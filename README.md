@@ -24,12 +24,8 @@ Make sure following software is installed on your PC
 ```shell
 $ ./mvnw clean package
 $ java -jar ./observer-pattern/target/observer-pattern-0.0.1-SNAPSHOT.jar
-```
-
-```shell
-Compare str1==str2: true
-Compare str3==str4: false
-Compare value str1.equals(str3): true
+09:39:19.760 [main] INFO io.github.huypva.observerpattern.ConcreteObserverA -- ConcreteObserverA update
+09:39:19.762 [main] INFO io.github.huypva.observerpattern.ConcreteObserverB -- ConcreteObserverB update
 ```
 
 ## Contribute
