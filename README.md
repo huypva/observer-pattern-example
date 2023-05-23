@@ -1,4 +1,4 @@
-The hello-world project
+The example project of Observer Pattern
 
 <div align="center">
     <img src="./assets/images/hello_world.png"/>
@@ -11,7 +11,7 @@ Make sure following software is installed on your PC
 ## Project structure
 ```
 .
-├── hello-world
+├── observer-pattern
 │   ├── pom.xml
 │   ...
 ├── pom.xml
@@ -23,7 +23,7 @@ Make sure following software is installed on your PC
 
 ```shell
 $ ./mvnw clean package
-$ java -jar ./hello-world/target/hello-world-0.0.1-SNAPSHOT.jar
+$ java -jar ./observer-pattern/target/observer-pattern-0.0.1-SNAPSHOT.jar
 ```
 
 ```shell
@@ -43,3 +43,5 @@ The code is open sourced. I encourage fellow developers to contribute and help i
 - Create new Pull Request
 
 ## Reference
+- https://en.wikipedia.org/wiki/Observer_pattern
+- https://refactoring.guru/design-patterns/observer

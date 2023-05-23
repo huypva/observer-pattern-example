@@ -1,4 +1,4 @@
-package io.github.huypva.helloworld;
+package io.github.huypva.observerpattern;
 
 /**
  * @author huypva
